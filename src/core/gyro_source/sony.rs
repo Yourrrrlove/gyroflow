@@ -604,8 +604,8 @@ fn inverse_interpolate_mesh(x_prime: f64, y_prime: f64, size: (f64, f64), mesh: 
     let operator = Objective { x_prime, y_prime, size, mesh };
     let solver = NelderMead::new(vec![
             Vector2::new(x_prime, y_prime),
-            Vector2::new(x_prime + 0.0001, y_prime),
-            Vector2::new(x_prime, y_prime + 0.0001),
+            Vector2::new(x_prime + 0.0003, y_prime),
+            Vector2::new(x_prime, y_prime + 0.0003),
         ])
         .with_sd_tolerance(1e-10)?;
 
