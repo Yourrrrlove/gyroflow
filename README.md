@@ -221,6 +221,9 @@ OpenCV usage is kept to a minimum, used only for lens calibration and optical fl
 GPU stuff supports *DirectX*, *OpenGL*, *Metal* and *Vulkan* thanks to *Qt RHI* and *wgpu*.
 For GPU processing we use *OpenCL* or *wgpu*, with highly parallelized CPU implementation as a fallback.
 
+This Gyroflow binary links against mdk-sdk, which is closed-source and not licensed under the GNU GPL.
+Gyroflow is licensed under GPLv3 with an additional permission allowing linking with mdk-sdk. mdk-sdk is distributed under its own license.
+
 ### Code structure
 1. Entire GUI is in the `src/ui` directory
 2. `src/controller.rs` is a bridge between UI and core, it takes all commands from QML and calls functions in core
