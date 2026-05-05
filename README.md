@@ -34,9 +34,6 @@
     <a href="https://github.com/gyroflow/gyroflow/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/gyroflow/gyroflow" alt="License">
     </a>
-    <a href="https://gurubase.io/g/gyroflow">
-      <img src="https://img.shields.io/badge/Gurubase-Ask%20Gyroflow%20Guru-006BFF" alt="Gurubase">
-    </a>
   </p>
 </p>
 
@@ -270,7 +267,7 @@ The project also supports UI live reload, it's a super quick way of working with
     - Compile and run: `just run`
 
 ### Building for Android
-0. Prerequisites: `git`, `7z`, working `powershell`, Android SDK and NDK. Android is not well supported yet, but the app can be built and somewhat works. Building is supported only on Windows
+0. Prerequisites: `git`, `7z`, working `powershell`, Android SDK and NDK. Building is supported only on Windows
 1. Get latest stable Rust language from: https://rustup.rs/
 2. Install `Just` by running `cargo install --force just`
 3. Clone the repo: `git clone https://github.com/gyroflow/gyroflow.git`
