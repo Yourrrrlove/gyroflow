@@ -304,6 +304,9 @@ Distributed under the GPLv3 License with App Store Exception. See [LICENSE](http
 
 As additional permission under section 7, you are allowed to distribute [`gyroflow_core`](https://github.com/gyroflow/gyroflow/tree/master/src/core) through an app store, even if that store has restrictive terms and conditions that are incompatible with the GPL, provided that the source is also available under the GPL with or without this permission through a channel without those restrictive terms and conditions.
 
+The Gyroflow binary links against mdk-sdk, which is closed-source and not licensed under the GNU GPL.
+An additional permission is granted allowing linking with mdk-sdk. mdk-sdk is distributed under its own license.
+
 ## Authors
 
 * [AdrianEddy](https://github.com/AdrianEddy/) - *Author of the Rust implementation (code in this repository), author of the UI, GPU processing, rolling shutter correction, advanced rendering features and the Adobe plugin*
